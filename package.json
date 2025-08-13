@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo Skipping web build (static www)",
+    "build": "echo \"Skipping web build (static www)\"",
     "cap:add:android": "npx cap add android",
     "cap:sync": "npx cap sync android",
     "android:build": "cd android && ./gradlew assembleDebug"
