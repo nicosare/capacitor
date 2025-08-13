@@ -28,7 +28,8 @@ jobs:
         uses: android-actions/setup-android@v3
 
       - name: Install deps
-        run: npm ci || npm install
+        run: npm install
+
 
       - name: Build web (noop)
         run: npm run build
